@@ -10,11 +10,11 @@ class ProfessorController {
             $data_nascimento = $_POST['data_nascimento'];
             $materia_id = $_POST['materia_id'];
             $novoProfessor = new Professor($nome, $sobrenome, $graduacao, $data_nascimento, $materia_id);
-            $novoProfessor->cadastraProfessor();
+            $novoProfessor->cadastrarProfessor();
             echo "Professor cadastrado com sucesso!";
         } elseif ($acao == "R") {
             $Professor = new Professor();
-            $resultado = $Professor->ListaProfessor();
+            $resultado = $Professor->ListarProfessor();
             include_once('../View/listarprofessor.php');
         }
     }
@@ -26,21 +26,9 @@ class ProfessorController {
         exit();
     }
 
-    public function processaUpdate($id) {
-        $nome = $_POST['nome'];
-        $descricao = $_POST['descricao'];
-        $materia = new Materia();
-        $materia->setNome($nome);
-        $materia->setDescricao($descricao);
-        $materia->atualizarMateria($id);
-        echo "Matéria atualizada com sucesso!";
-    }
+    
 
-    public function processaEdit($id) {
-        $materia = new Materia();
-        $materiaAtual = $materia->getId($id);
-        include_once('../View/editar.php');
-    }
+    
 }
 
 // Handling the request

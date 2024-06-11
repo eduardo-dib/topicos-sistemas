@@ -23,7 +23,7 @@
             $materias = new Materia();
 
             // Recuperar a lista de disciplinas
-            $resultado = $materias->ListaMateria();
+            $resultado = $materias->ListarMaterias();
 
             // Verificar se há resultados
             if (count($resultado) > 0) {
