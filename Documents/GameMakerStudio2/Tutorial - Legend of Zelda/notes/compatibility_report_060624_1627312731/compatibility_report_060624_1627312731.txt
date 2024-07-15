@@ -1,0 +1,28 @@
+Converting GML script: C:\Users\Pichau\Downloads\Zelda #7 Material\Zelda #7 Material\GM Files\Tutorial - Legend of Zelda.gmx\mvc\scripts\check_collision_obj\check_collision_obj.gml
+Converted description /// @description  check_collision_obj(vx, vy, obj)/// @param vx
+/// @param  vy
+/// @param  obj
+
+Converting GML script: C:\Users\Pichau\Downloads\Zelda #7 Material\Zelda #7 Material\GM Files\Tutorial - Legend of Zelda.gmx\mvc\scripts\move_toward\move_toward.gml
+Converted description /// @description  move_toward(start, end, val)/// @param start
+/// @param  end
+/// @param  val
+
+Converting GML script: C:\Users\Pichau\Downloads\Zelda #7 Material\Zelda #7 Material\GM Files\Tutorial - Legend of Zelda.gmx\mvc\objects\obj_game\Step_0.gml
+Converted builtin - line 5: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 6: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 5: view_xview[0] = move_toward(__view_get( e__VW.XView, 0 ),target_xview,4) -> __view_set( e__VW.XView, 0, move_toward(__view_get( e__VW.XView, 0 ),target_xview,4) )
+Converted builtin - line 6: view_yview[0] = move_toward(__view_get( e__VW.YView, 0 ),target_yview,4) -> __view_set( e__VW.YView, 0, move_toward(__view_get( e__VW.YView, 0 ),target_yview,4) )
+
+Converting GML script: C:\Users\Pichau\Downloads\Zelda #7 Material\Zelda #7 Material\GM Files\Tutorial - Legend of Zelda.gmx\mvc\objects\obj_oktorok\Create_0.gml
+Converted description /// @description  create
+
+Game speed set to 60
+Added compatibility script 'instance\instance_create.gml'
+Added compatibility script 'object\object_get_depth.gml'
+Added compatibility script 'view\__view_get.gml'
+Added compatibility script 'view\__view_set.gml'
+Added compatibility script 'view\__view_set_internal.gml'
+Added compatibility script 'view\__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script '__global_object_depths.gml'

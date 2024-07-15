@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"check_inputs_all",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"check_inputs_all",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,7 @@
+Converting GML script: C:\Users\Pichau\AppData\Local\Temp\ProjectTool_1317919712\ZeldaTransitionStart_785419072_gmz\mvc\objects\obj_player\Create_0.gml
+Converted description /// @description  Initialize Variables
+
+Converting GML script: C:\Users\Pichau\AppData\Local\Temp\ProjectTool_1317919712\ZeldaTransitionStart_785419072_gmz\mvc\objects\obj_player\Step_0.gml
+Converted description /// @description  States
+
+Game speed set to 60
